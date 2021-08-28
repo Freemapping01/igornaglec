@@ -1,0 +1,54 @@
+.container {
+    max-width: 60%;
+   }
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #95d1f3d7;
+  color: #000;
+}
+.containertab {
+  display: flex;
+  justify-content: center;
+}
+a {
+  color :darkblue;
+}
+p {
+  color: #2F4F4F;
+}
+h1,h2,h3,h4 {
+  font-family: Arial, "Helvetica CY", "Nimbus Sans L", sans-serif;
+  margin-top: 22px; margin-bottom: 20px;
+}
+.container > .promo-bar > .promo-item {
+  color: red;
+  font-style:italic;
+}
+.page-header {
+  font-size: 32px;
+  padding-bottom: 9px;
+  margin: 22px 0 20px;
+  border-bottom: 1px solid #eee;
+}
+figcaption {
+  font-style:italic;
+}
+
+ figure {
+  clear: right;
+    float: right;
+    display: table;
+    margin-right: auto;
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+p {
+  font-family: Verdana, Arial, Helvetica, sans-serif; 
+  font-size: 12pt; /* Размер шрифта в пунктах */ 
+ }
+ .passe-partout {
+  padding: 30px; /* Ширина паспарту */
+  background: #f0f0f0; /* Цвет фона  паспарту */
+  border: 1px solid #666; /* Параметры рамки */ 
+ }
